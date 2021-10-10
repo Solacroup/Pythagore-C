@@ -14,7 +14,7 @@ int main(void)
     *ab = (*ab) * (*ab);
     *bc = (*bc) * (*bc);
     *ac = (*ab) + (*bc);
-    printf("le triangle est rectangle en B, et l'hypothénuse vaut : %.2f cm \n", sqrt(*ac));
+    printf("L'hypothénuse vaut : %.2f cm \n", sqrt(*ac));
     free(ab);
     free(bc);
     free(ac);
